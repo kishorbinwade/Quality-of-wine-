@@ -14,10 +14,10 @@ dataset = pd.read_csv('Wine.csv')
 # distributing the dataset into two components X and Y
 
 X = dataset.iloc[:, 0:13].values
-print(X)
+#print(X)
 
 y = dataset.iloc[:, 13].values
-print(y)
+#print(y)
 # Splitting the X and Y into the
 # Training set and Testing set
 
